@@ -11,12 +11,12 @@ int main()
       if(i%2==0)
       {
         if(arr[i]%2!=0)
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
       }
       else
       {
         if(arr[i]%2==0)
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
       }
    }
 }
