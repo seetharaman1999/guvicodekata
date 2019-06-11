@@ -13,6 +13,9 @@ int main()
       arr1[j++]=i;
     }
     }
+  if(j==0)
+    printf("-1");
+  else
   for(i=0;i<j;i++)
   printf("%d ",arr1[i]);
    
