@@ -12,7 +12,7 @@ int main()
     printf("Consonant");
   }
   else
-  printf("Invalid"):
+  printf("Invalid");
   return 0;
  }
   
