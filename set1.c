@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-  int num;
-  scanf("%d",&num);
-  if(num==0)
-  printf("Zero");
-  else if(num>0)
+int num1;
+scanf("%d",&num1);
+if(num1>=1)
   printf("Positive");
-  else
+else if(num1==0)
+  printf("Zero");
+else
   printf("Negative");
-  return 1;
- }
+return 0;
+}
